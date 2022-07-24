@@ -1,0 +1,55 @@
+<!-- Markup for form validation -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form Validator</title>
+</head>
+<body>
+    <!-- Container class centers the form  -->
+    <div class="container">
+        <!-- wrapper for form -->
+        <div class="form_wrap">
+            <h2>Register With Us</h2>
+            <form id="form">
+                <!-- username field -->
+                <div class="input_fields">
+                    <label>Username</label>
+                    <input type="text" id="username" placeholder="Enter username">
+                    <small></small>
+                </div>    
+
+                <!-- email field -->
+                <div class="input_fields">
+                    <label>Email</label>
+                    <input type="text" id="email" placeholder="Enter email">
+                    <small></small>
+                </div>
+
+                <!-- input field -->
+                <div class="input_fields">
+                    <label>Password</label>
+                    <input type="password" id="password" placeholder="Enter password">
+                    <small></small>
+                </div>
+
+                <!-- password confirmation field -->
+                <div class="input_fields">
+                    <label>Confirm Password</label>
+                    <input type="password" id="password2" placeholder="Enter password again">
+                    <small></small>
+                </div>
+
+                <!-- submit form button -->
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+    
+</body>
+</html>
