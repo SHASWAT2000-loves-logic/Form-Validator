@@ -7,10 +7,13 @@ check the validity of the user input.
 **Frameworks used** - No CSS framework, used Vanilla JavaScript
 
 **Website description** - There are 4 input fields- username, email, password and confirm password and depending on user input, either error or success messages will be 
-displayed. There are 3 separate messages for - no input, invalid input, valid input
+displayed. There are 3 separate messages for - no input, invalid input and a valid input
 
 **Rules for valid input** - 
 a. username- must be between 3 and 15 characters
+
 b. email - checked using regular expression
+
 c. password- must be between 6 and 25 characters
+
 d. password2 - password and password2 must match to confirm password 
